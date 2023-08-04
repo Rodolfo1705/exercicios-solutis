@@ -2,11 +2,10 @@ import java.util.Scanner;
 
 public class Exercicio7 {
     public static void run(){
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Digite o vlaor a: ");
-        int a = scanner.nextInt();
-        System.out.print("Digite o valor b: ");
-        int b = scanner.nextInt();
+        Divisor.printExercise(7);
+
+        int a = InputHandler.getIntInput("Digite o valor a: ");
+        int b = InputHandler.getIntInput("Digite o valor b: ");
         int temp;
 
         System.out.println("Valor de a antes da troca: " + a);
