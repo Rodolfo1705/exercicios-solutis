@@ -12,7 +12,7 @@ public class Exercicio9 {
         }
     }
 
-    public static int calculatePower(int num) {
+    private static int calculatePower(int num) {
         int power = num * num;
 
         return power;

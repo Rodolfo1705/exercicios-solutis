@@ -18,7 +18,7 @@ public class Exercicio12 {
         }
     }
 
-    public static List<Number> divisibleNumbersByThree(int start, int end) {
+    private static List<Number> divisibleNumbersByThree(int start, int end) {
         List<Number> divisibleNumbersList = new ArrayList<>();
 
         for (int i = start; i <= end; i++) {

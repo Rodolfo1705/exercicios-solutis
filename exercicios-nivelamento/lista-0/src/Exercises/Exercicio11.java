@@ -13,7 +13,7 @@ public class Exercicio11 {
         System.out.println("O produto selecionado foi: " + product);
     }
 
-    public static String getProduct(int code) {
+    private static String getProduct(int code) {
         if (code == 1) return "Parafuso";
         if (code == 2) return "Porca";
         if (code == 3) return "Prego";

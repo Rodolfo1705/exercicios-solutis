@@ -11,7 +11,7 @@ public class Exercicio8 {
         System.out.println(number + " é um número " + (isEven(number) ? "par" : "impar"));
     }
 
-    public static boolean isEven(int number) {
+    private static boolean isEven(int number) {
         return number % 2 == 0;
     }
 }

@@ -13,7 +13,7 @@ public class Exercicio13 {
         System.out.println(getDiceSumPossibilities());
     }
 
-    public static List<List<Number>> getDiceSumPossibilities() {
+    private static List<List<Number>> getDiceSumPossibilities() {
         List<Number> firstDiceValues = populateDiceList();
         List<Number> secondDiceValues = populateDiceList();
 
@@ -34,7 +34,7 @@ public class Exercicio13 {
         return possibilitiesOfSum;
     }
 
-    public static List<Number> populateDiceList() {
+    private static List<Number> populateDiceList() {
         List<Number> diceValuesList = new ArrayList<>();
         diceValuesList.add(1);
         diceValuesList.add(2);
