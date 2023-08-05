@@ -1,5 +1,9 @@
+package Exercises;
+
+import Utils.Divisor;
+
 public class Exercicio10 {
-    public static void run(){
+    public static void run() {
         Divisor.printExercise(10);
 
         int num1 = 6;

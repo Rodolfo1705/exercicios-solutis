@@ -1,7 +1,10 @@
-import java.util.Scanner;
+package Exercises;
+
+import Utils.Divisor;
+import Utils.InputHandler;
 
 public class Exercicio7 {
-    public static void run(){
+    public static void run() {
         Divisor.printExercise(7);
 
         int a = InputHandler.getIntInput("Digite o valor a: ");
