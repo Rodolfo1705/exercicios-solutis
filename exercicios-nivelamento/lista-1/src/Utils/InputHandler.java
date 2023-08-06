@@ -10,4 +10,12 @@ public class InputHandler {
 
         return input;
     }
+
+    public static double getDoubleInput(String message){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print(message);
+        double input = scanner.nextDouble();
+
+        return input;
+    }
 }
